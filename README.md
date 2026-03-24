@@ -86,9 +86,7 @@ The analysis uses **Python for data exploration and statistical analysis** and *
 - Enables HR teams to identify high-risk roles and departments  
 - Supports targeted retention and engagement strategies  
 - Helps reduce hiring costs and employee turnover  
-
 ---
-
 ## 📊 Dashboard & Visual Storytelling
 The Power BI dashboard provides:
 - Department-wise and role-wise attrition analysis  
@@ -102,8 +100,6 @@ Detailed explanation of the project is available here:
 https://nsdsda.medium.com/employee-attrition-analysis-on-ibm-hr-data-db3e07ebad43
 
 ## 👨‍💻 Author
-
 **Himanshu Raturi**
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/himanshu-raturi/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Himanshu0508Raturi)    
