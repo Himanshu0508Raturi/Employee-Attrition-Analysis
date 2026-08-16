@@ -1,36 +1,90 @@
-# Employee Attrition Analysis (IBM HR Data)
+#  Employee Attrition Analysis on IBM HR Data
 
-This repository contains a concise exploratory data analysis (EDA) of IBM HR employee attrition data performed in a Jupyter Notebook. The analysis helps identify factors associated with employee turnover.
+##  Project Overview
+Employee attrition is a critical challenge for organizations, affecting productivity, morale, and operational costs.  
+This project performs an end-to-end **exploratory data analysis (EDA)** on the **HR Analytics Employee Attrition & Performance dataset** to identify key factors influencing employee turnover and deliver **actionable business insights**.
 
-## Files in this folder
-- [HR_Analytics.csv](HR_Analytics.csv): Dataset used for the analysis.
-- [IBM_HR_Attrition_EDA.ipynb](IBM_HR_Attrition_EDA.ipynb): Jupyter Notebook with the EDA, visualizations, and notes.
-- [README.md](README.md): This file.
+The analysis uses **Python for data exploration and statistical analysis** and **Power BI for interactive dashboards and visual storytelling**, enabling data-driven HR decision-making.
 
-## Quick start
-1. Open the notebook in Jupyter or VS Code (Notebook view).
-2. Ensure Python dependencies are installed (see below).
-3. Run cells in order to reproduce the analysis and plots.
+---
 
-## Recommended Python dependencies
-Install common data-analysis packages with:
+## 🎯 Project Objectives
+- Identify key drivers contributing to employee attrition  
+- Analyze attrition patterns across roles, departments, income levels, and experience  
+- Understand relationships between compensation, job level, and tenure  
+- Build an interactive Power BI dashboard for stakeholders  
+- Support HR teams with data-backed retention strategies  
 
-```
-pip install pandas numpy matplotlib seaborn jupyter
-```
+---
 
-Or create a virtual environment and then install the packages.
+## 📂 Dataset Information
+- **Source:** HR Analytics Employee Attrition Dataset  
+- **Records:** 1,470 employees  
+- **Features:** 35 attributes  
+  - Numerical: Age, Monthly Income, Total Working Years, Job Level, etc.  
+  - Categorical: Job Role, Department, Education Field, Attrition, etc.  
 
-## Dataset
-The dataset is included as [HR_Analytics.csv](HR_Analytics.csv). The notebook reads this file from the repository root — no external download is required.
+---
 
-## Notes
-- The notebook contains data cleaning, univariate and bivariate analysis, and correlation visualizations.
-- If you want a requirements file or environment setup, tell me and I can add one.
+## 🛠️ Tools & Technologies
+### Data Analysis
+- Python (Jupyter Notebook)
+  - Pandas  
+  - Matplotlib  
+  - Seaborn  
 
-## 👨‍💻Author
+### Visualization & Reporting
+- Power BI Desktop  
+  - Power Query  
+  - DAX  
 
-**Himanshu Raturi**
+---
 
+## 🔍 Analysis Workflow
+### 1. Data Inspection & Cleaning
+- Checked dataset shape, data types, missing values, and duplicates  
+- Segregated numerical and categorical variables  
+
+### 2. Univariate Analysis
+- Distribution analysis of Age, Monthly Income, and Total Working Years  
+- Frequency analysis of Job Role, Department, and Education Field  
+
+### 3. Bivariate Analysis
+- Compared attrition trends between employees who stayed and left  
+- Used violin plots, histograms, and bar charts  
+
+### 4. Correlation Analysis
+- Generated heatmaps for numerical features  
+- Identified strong relationships between income, job level, and experience  
+
+---
+
+## 📈 Key Insights
+- **Job Level & Monthly Income:** Strong positive correlation  
+- **Experience & Income:** Employees with higher total working years earn more  
+- **Attrition Trends:**
+  - Higher attrition among Sales Executives and Research Scientists  
+  - Sales and R&D departments show higher turnover  
+  - Life Sciences and Medical education fields exhibit higher attrition  
+
+---
+
+## 💡 Business Impact
+- Enables HR teams to identify high-risk roles and departments  
+- Supports targeted retention and engagement strategies  
+- Helps reduce hiring costs and employee turnover  
+---
+## 📊 Dashboard & Visual Storytelling
+The Power BI dashboard provides:
+- Department-wise and role-wise attrition analysis  
+- Income and experience trends  
+- Interactive filters for dynamic exploration  
+
+---
+
+
+
+## 👨‍💻 Author
+**Himanshu Raturi** <br>
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/himanshu-raturi/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Himanshu0508Raturi)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/Himanshu0508Raturi)    
